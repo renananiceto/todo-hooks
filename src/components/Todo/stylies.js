@@ -2,11 +2,10 @@ import styled from "styled-components";
 
 
 export const Container = styled.div`
-    display: flex;
     height: 5rem;
-    justify-content: center;
-    align-items: center;
-    background-color: #3166D8;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
 `
 
 export const Input = styled.input`
@@ -25,4 +24,28 @@ export const Btn = styled.button`
 	color: #fff;
 	background: linear-gradient(to right, orangered, orange);
 	cursor: pointer;    
+`
+
+export const BoxBtn = styled.div`
+	display: flex;
+	justify-content: center;
+	align-items: start;
+	height: 46px;
+`
+export const Render = styled.div`
+	display: flex;
+	justify-content: center;
+`
+
+export const Box = styled.div`
+   	display: flex;
+    justify-content: center;
+    align-items: center;
+
+`
+
+export const BoxMap = styled.div`
+	background-color: rgba(216,48,240,0.4);
+	border-radius: 20px;
+	width: 240px;
 `
